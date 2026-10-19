@@ -45,10 +45,10 @@ def pedir_y_resolver():
 
 def main():
     print("¡Bienvenido/a! Este programa calcula las raíces de una ecuación cuadrática (ax² + bx + c = 0).")
-    seguir = "s"
-    while seguir == "s":
+    seguir = "si"
+    while seguir == "si":
         pedir_y_resolver()
-        seguir = input("¿Querés resolver otra ecuación? (s/n): ").strip().lower()
+        seguir = input("¿Querés resolver otra ecuación? (si/no): ").strip().lower()
 
     print("Programa finalizado. ¡Hasta la próxima!")
 

@@ -14,8 +14,8 @@ def es_primo(numero):
 def main():
     print("¡Bienvenido/a! Este programa te dice si un número es primo o no.")
 
-    seguir = "s"
-    while seguir == "s":
+    seguir = "si"
+    while seguir == "si":
         entrada = input("Ingresá un número entero: ")
 
         try:
@@ -27,7 +27,7 @@ def main():
         except ValueError:
             print("Error: tenés que ingresar un número entero.")
 
-        seguir = input("¿Querés probar otro número? (s/n): ").strip().lower()
+        seguir = input("¿Querés probar otro número? (si/no): ").strip().lower()
 
     print("Programa finalizado. ¡Hasta la próxima!")
 
